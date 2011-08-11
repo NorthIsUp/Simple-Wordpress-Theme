@@ -13,6 +13,8 @@
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/blueprint-wp.css" type="text/css" media="screen, projection">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/print.css" type="text/css" media="print">
 
+	<link href='http://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
+
 	<!-- To use a custom stylesheet, uncomment the next line: -->
 	<!-- <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/custom.css" type="text/css" media="screen, projection"> -->
 
@@ -59,7 +61,7 @@
 					<span id="hitchcock">hitchcock</span>
 				</a>
 			</div>
-			<?php include (TEMPLATEPATH . '/searchform.php'); ?>
+			<!-- <?php include (TEMPLATEPATH . '/searchform.php'); ?> -->
 			<div id="mousing">&nbsp;</div>
 			<div class="site">
 				<span class="icon">
