@@ -1,0 +1,209 @@
+/* @override http://localhost/~north/wordpress/wp-content/themes/blueprint/css/blueprint-wp.css */
+
+/*-----------------------------------------------------------------------------
+	Blueprint-WP Theme
+	By: Joshua Sowin (fireandknowledge.org)
+-----------------------------------------------------------------------------*/
+
+.post-single{
+	border-bottom: thin solid #d5d5d5;
+	padding-bottom: .5em;
+	padding-top: .5em;
+}
+.post-title { padding-left: .5em; 
+}
+.post-time { float: right; }
+
+body 	{  margin-bottom: 0; margin-top: 0; }
+
+/* Blueprint width setting */
+.container 	{ width: 820px; border-top: 3px #668040 solid; padding-top: 10px; }			
+
+#page {
+	/*border-left: 1px solid #CCC;*/
+	/*border-right: 1px solid #CCC;*/
+	border-bottom: 1px solid #CCC;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.icon {
+	padding-left: 1em;	
+	padding-right: 1em;
+}
+
+blockquote {
+	font-style: normal;
+	padding: 0 0 0 0;
+	color: #000;
+	background: url('../images/quote.png') .5em top no-repeat;
+}
+
+a 				{ color: #3E4967; }
+a:hover			{ color: #000; }
+blockquote p 	{ padding: 0 20px 0 30px; }
+hr 				{ background: #CCC; height: 1px; }
+img				{ margin: 0; }
+p img			{ float: none; }
+a.button 		{ float: left; } /* Fix for buttons */
+input 			{ padding-left: 0; border: 1px solid #CCCCCC;  }
+ul 				{ margin-left: 15px; list-style-type: none; }
+ul li 			{ padding: 2px 0 2px 9px; background: url('../images/icons/bullet_square_grey.gif') left 5px no-repeat; }
+ol				{ margin-left: 35px; }
+label			{ font-weight: normal; }
+textarea		{ height: 200px; width: 500px;}
+.small			{ font-size: .9em; }
+.nomargin		{ margin: 0; }
+a.button, button { font-weight: normal; }
+
+h3, h3 a {
+	font-size: 1.3em;
+	line-height: 1.2;
+	color: #3B4A25;
+ 	letter-spacing: 0px;
+	text-decoration: none;
+}
+
+#maincontent h2 		{ color: #3B4A25; margin-bottom: 15px;
+	border-bottom: thin solid #d5d5d5;
+}
+h2 a 					{ color: #3B4A25; text-decoration: none; }
+#maincontent .post h2	{ margin-bottom: 5px; }
+						/* Padding inside columns */
+#maincontent .content 	{ padding: 1em; /*25px 30px 20px 48px;*/ }
+
+.navigation, 
+.navigation a			{ color: #AAA; }
+.alignright 			{ float: right; }
+.alignleft 				{ float: left; }
+
+.post					{ margin-bottom: 25px; }
+
+/*-----------------------------------------------------------------------------
+	Header
+-----------------------------------------------------------------------------*/
+
+#header {
+	height: 89px;
+}
+
+#header h1, #header .description {
+	padding-left: 50px;
+	margin: 0;
+	line-height: 1em;
+}
+
+#maincontent, #sidebar { padding: 0 0 20px 0; }
+
+
+/*-----------------------------------------------------------------------------
+	Navigation
+-----------------------------------------------------------------------------*/
+
+#nav, #subnav	{ padding: 0; background: #668040; float: left; width: 100%; line-height: 1.5em; }
+
+#nav ul,
+#subnav ul		{ margin: 0; padding: 0; list-style: none; }
+
+#nav li,
+#subnav li		{ margin: 0; padding: 0; float: left; background-image: none; }
+
+#nav li a,
+#subnav li a 	{ color: #F2FFDF; padding: 5px 15px; float: left; text-decoration: none; }
+
+#nav li.current_page_item a,
+#nav li a:hover 	{ background: #485A2D; color: #F2FFDF; }
+
+#subnav				{ background: #616161; }
+
+#nav li.current_page_item a,
+#subnav li.current_page_item a,
+#subnav li a:hover 	{ color: #F2FFDF; }
+
+#nav li.first a { margin-left: 50px; }
+
+	/*-------------------------------------------------------------------------
+		Navigation bar in posts (use main nav html inside a post)
+	-------------------------------------------------------------------------*/
+
+	.entry #nav .content {
+		padding: 0;
+		margin: auto;
+	}
+
+	.entry #nav {
+		margin-bottom: 15px;
+		background: #FFF;
+
+	}
+
+	.entry #nav li a 		{ color: #FFF; border-right: 1px solid #AAA; background: #666; }
+	.entry #nav li.last a	{ border-right: none; }
+	.entry #nav li a:hover 	{ background: #333; color: #FFF;}
+
+/*-----------------------------------------------------------------------------
+	Sidebar
+-----------------------------------------------------------------------------*/
+
+/* #page 		{ background: url('../images/sidebar_bg.gif') right repeat-y; } */  /* fake bg */
+#sidebar 	{ margin-left: 8px; /* lets us have border */ }
+#sidebar h2 { font-size: 1.3em; line-height: 1.2; }
+
+
+#sidebar ul, #sidebar ul ol {
+	margin: 0;
+	padding: 25px 20px 0 20px;
+}
+
+#sidebar ul li	{ padding: 0; }
+
+#sidebar ul li ul { padding-top: 0; }
+
+#sidebar ul li ul li {
+	margin: 0 0 0 -18px;
+	padding: 2px 0 2px 9px;
+	background: url('../images/icons/bullet_square_grey.gif') left 3px no-repeat;
+	font-size: 0.9em;
+}
+
+.feedlink {
+	padding: 2px 0 2px 20px;
+	background: url('../images/icons/feed_small.png') left center no-repeat;
+}
+
+#sidebar ul li, #sidebar ul li#subscribe ul li {
+	list-style-type: none;
+	background: none;
+	margin-bottom: 20px;
+}
+
+#sidebar ul li#subscribe ul li { margin: 0 0 0 -30px; }
+
+/* Hide search from sidebar */
+#sidebar #search { display: none; }
+
+/*-----------------------------------------------------------------------------
+	Footer
+-----------------------------------------------------------------------------*/
+
+#footer 		{ text-align: center; font-size: .9em; margin: 0;}
+
+#footer a 		{ text-decoration: none; }
+
+/*-----------------------------------------------------------------------------
+	Search
+-----------------------------------------------------------------------------*/
+
+#search				{ float: right; }
+#search #s 			{ background: transparent url('../images/icons/search_grey.gif') 0px center no-repeat;
+ 				  	  padding: 2px 0 2px 17px; color: #CCCCCC; font-size: 0.9em;}
+#search #s:hover 	{ color: #000; }
+.search-excerpt 	{ margin: 0; }
+
+
+/*-----------------------------------------------------------------------------
+	Comments
+-----------------------------------------------------------------------------*/
+
+.commentlist li { padding: 8px 15px; } 
+.comments-alt 	{ background: #EEE;}
