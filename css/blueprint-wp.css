@@ -21,6 +21,14 @@ body 	{  margin-bottom: 0; margin-top: 0; }
 	float: left;
 }			
 
+code {
+
+	text-align: left;
+	background-color: #eee;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
 #page {
 	/*border-left: 1px solid #CCC;*/
 	/*border-right: 1px solid #CCC;*/

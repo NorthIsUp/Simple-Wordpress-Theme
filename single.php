@@ -2,7 +2,7 @@
 
 <div id="page">
 
-	<div class="column span-9 first" id="maincontent">
+	<div class="column span-10 first" id="maincontent">
 
 		<div class="content">
 
