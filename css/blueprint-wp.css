@@ -1,9 +1,15 @@
+/* @override http://northisup.com/wp-content/themes/Simple-Wordpress-Theme/css/blueprint-wp.css */
+
 /* @override http://localhost/~north/wordpress/wp-content/themes/blueprint/css/blueprint-wp.css */
 
 /*-----------------------------------------------------------------------------
 	Blueprint-WP Theme
 	By: Joshua Sowin (fireandknowledge.org)
 -----------------------------------------------------------------------------*/
+
+* {
+	background-color: #282828;
+}
 
 .post-single{
 	border-bottom: thin solid #d5d5d5;
@@ -51,7 +57,7 @@ blockquote {
 	background: url('../images/quote.png') .5em top no-repeat;
 }
 
-a 				{ color: #3E4967; }
+a 				{ color: #d1503d; }
 a:hover			{ color: #000; }
 blockquote p 	{ padding: 0 20px 0 30px; }
 hr 				{ background: #CCC; height: 1px; }
@@ -71,15 +77,15 @@ a.button, button { font-weight: normal; }
 h3, h3 a {
 	font-size: 1.3em;
 	line-height: 1.2;
-	color: #3B4A25;
+	color: #8ddde8;
  	letter-spacing: 0px;
 	text-decoration: none;
 }
 
-#maincontent h2 		{ color: #3B4A25; margin-bottom: 15px;
+#maincontent h2 		{ color: #8ddde8; margin-bottom: 15px;
 	border-bottom: thin solid #d5d5d5;
 }
-h2 a 					{ color: #3B4A25; text-decoration: none; }
+h2 a 					{ color: #8ddde8; text-decoration: none; }
 #maincontent .post h2	{ margin-bottom: 5px; }
 						/* Padding inside columns */
 #maincontent .content 	{ padding: 1em; /*25px 30px 20px 48px;*/ }
@@ -90,6 +96,7 @@ h2 a 					{ color: #3B4A25; text-decoration: none; }
 .alignleft 				{ float: left; }
 
 .post					{ margin-bottom: 25px; }
+
 
 /*-----------------------------------------------------------------------------
 	Header
@@ -107,7 +114,7 @@ h2 a 					{ color: #3B4A25; text-decoration: none; }
   padding-left: 6px;
   font-size: 26px;
   letter-spacing: 5px;
-  color: #666;
+  /*color: #666;*/
   font-family: 'Comfortaa';
 }
 #header #adam:hover {
@@ -118,7 +125,7 @@ h2 a 					{ color: #3B4A25; text-decoration: none; }
   padding-left: 3px;
   font-weight: bold;
   letter-spacing: 1px;
-  color: #000;
+  /*color: #000;*/
   font-family: 'Comfortaa';
 }
 
@@ -130,6 +137,14 @@ h2 a 					{ color: #3B4A25; text-decoration: none; }
 
 #maincontent, #sidebar { padding: 0 0 20px 0; }
 
+.highlight { overflow: auto; background-color: #303030; margin-bottom: 18px; padding-top: 18px; padding-left: 18px; padding-right: 18px; }
+html > body { color: #ffffee; background-color: #292929; }
+a { color: #d1503d; text-decoration: none; }
+a:hover { text-decoration: underline; color: #cb6354; }
+html h1 { font-weight: bold; font-size: 4.5em; line-height: 1; color: #8ddde8; letter-spacing: -0.09em; margin-bottom: 0; }
+html h1 a { color: #8ddde8; }
+html h2 { font-family: 'Palatino Linotype','Book Antiqua',Palatino,serif; color: #8ddde8; font-size: 2em; line-height: 1.5em; background: url(img/border.png) bottom left repeat-x; }
+html h2 a { color: #8ddde8; }
 
 /*-----------------------------------------------------------------------------
 	Navigation
@@ -176,48 +191,7 @@ h2 a 					{ color: #3B4A25; text-decoration: none; }
 	.entry #nav li.last a	{ border-right: none; }
 	.entry #nav li a:hover 	{ background: #333; color: #FFF;}
 
-/*-----------------------------------------------------------------------------
-	Sidebar
------------------------------------------------------------------------------*/
-
-/* #page 		{ background: url('../images/sidebar_bg.gif') right repeat-y; } */  /* fake bg */
-#sidebar 	{ margin-left: 8px; /* lets us have border */ }
-#sidebar h2 { font-size: 1.3em; line-height: 1.2; }
-
-
-#sidebar ul, #sidebar ul ol {
-	margin: 0;
-	padding: 25px 20px 0 20px;
-}
-
-#sidebar ul li	{ padding: 0; }
-
-#sidebar ul li ul { padding-top: 0; }
-
-#sidebar ul li ul li {
-	margin: 0 0 0 -18px;
-	padding: 2px 0 2px 9px;
-	background: url('../images/icons/bullet_square_grey.gif') left 3px no-repeat;
-	font-size: 0.9em;
-}
-
-.feedlink {
-	padding: 2px 0 2px 20px;
-	background: url('../images/icons/feed_small.png') left center no-repeat;
-}
-
-#sidebar ul li, #sidebar ul li#subscribe ul li {
-	list-style-type: none;
-	background: none;
-	margin-bottom: 20px;
-}
-
-#sidebar ul li#subscribe ul li { margin: 0 0 0 -30px; }
-
-/* Hide search from sidebar */
-#sidebar #search { display: none; }
-
-/*-----------------------------------------------------------------------------
+*-----------------------------------------------------------------------------
 	Footer
 -----------------------------------------------------------------------------*/
 
@@ -242,4 +216,4 @@ h2 a 					{ color: #3B4A25; text-decoration: none; }
 -----------------------------------------------------------------------------*/
 
 .commentlist li { padding: 8px 15px; } 
-.comments-alt 	{ background: #EEE;}
+.comments-alt 	{ }
